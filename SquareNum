@@ -1,0 +1,10 @@
+   public static void main(String args[]) throws IOException
+   {
+      SquareNum ob = new SquareNum();
+      double val;
+      System.out.println("Enter value to be squared: ");
+      val = ob.getNumber();
+      val = ob.square(val);
+      System.out.println("Squared value is " + val);
+   }
+}
