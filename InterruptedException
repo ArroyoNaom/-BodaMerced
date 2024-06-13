@@ -1,0 +1,15 @@
+                new Thread(ft,"").start();  
+            }  
+        }  
+        try  
+        {  
+            System.out.println("："+ft.get());  
+        } catch (InterruptedException e)  
+        {  
+            e.printStackTrace();  
+        } catch (ExecutionException e)  
+        {  
+            e.printStackTrace();  
+        }  
+  
+    }
